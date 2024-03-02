@@ -17,7 +17,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 # Spotify API credentials
 client_id = 'YOUR CLIENT ID'
 client_secret = 'YOUR SECRET KEY'
-redirect_uri = 'http://localhost:8501/callback'
+redirect_uri = 'http://localhost:8501/callback'  # redirect_uri can be configured & changed according to your wish as a callback function, in developer dashboard of spotify.
 
 
 # Streamlit UI
