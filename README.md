@@ -1,6 +1,6 @@
 # Genre Classification using KNN
 
-My project focuses on classifying audio files into different genres using the K-Nearest Neighbors (KNN) algorithm.
+This project focuses on classifying audio files into different genres using the K-Nearest Neighbors (KNN) algorithm.
 
 ## Introduction
 
