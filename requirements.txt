@@ -1,0 +1,8 @@
+python_speech_features
+scipy
+numpy
+matplotlib
+seaborn
+streamlit
+spotipy
+scikit-learn
