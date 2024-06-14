@@ -13,11 +13,11 @@ import os
 from collections import defaultdict
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import os
 
-# Spotify API credentials
-client_id = 'YOUR CLIENT ID'
-client_secret = 'YOUR SECRET KEY'
-redirect_uri = 'http://localhost:8501/callback'  # redirect_uri can be configured & changed according to your wish as a callback function, in developer dashboard of spotify.
+client_id = os.environ.get('CLIENT_ID')
+client_secret = os.environ.get('CLIENT_SECRET')
+redirect_uri = os.environ.get('REDIRECT_URI')
 
 
 # Streamlit UI
