@@ -23,14 +23,14 @@ cd your-repository
 ```
 ---
 > [!IMPORTANT]
-> Since the <em><strong>Data</strong></em> for training <strong>( GTZAN Dataset )</strong> is already included in this project, cloning of this repository will take some time !!!
+> Since the <em><strong>Data</strong></em> for training <strong>( GTZAN Dataset )</strong> is already included in this project, therefore cloning of this repository will take some time !!!
 ---
 ```bash
 # installing all the required packages
 pip install requirements.txt
 ```
 > [!CAUTION]
-> Before deploying the application, ensure to add your Spotify API credentials ( <strong><em>client ID and client secret</em></strong> ) in <code>line 18 & 19</code> of <strong>app.py</strong>. Failing to do so will result in authentication errors when accessing the Spotify API. Refer to the Spotify API documentation for instructions on obtaining and managing your credentials.
+> Before deploying the application, ensure to add your Spotify API credentials ( <strong><em>Client ID, Client Secret and Redirect URI</em></strong> )<br/> in <code>line 18 , 19 & 20</code> of <strong>app.py</strong>. Failing to do so will result in authentication errors when accessing the Spotify API. Refer to the Spotify API documentation for instructions on obtaining and managing your credentials.
 ---
 
 ```python
