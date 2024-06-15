@@ -23,11 +23,11 @@ cd your-repository
 ```
 ---
 > [!IMPORTANT]
-> Download the GTZAN dataset and extract the <strong><em>Data</em></strong> folder into root directory, i.e. root directory should contain <strong><em>Data</em></strong> folder.
+> Since the <em><strong>Data</strong></em> for training <strong>( GTZAN Dataset )</strong> is already included in this project, cloning of this repository will take some time !!!
 ---
 ```bash
 # installing all the required packages
-pip install python_speech_features scipy numpy scikit-learn matplotlib seaborn streamlit spotipy
+pip install requirements.txt
 ```
 > [!CAUTION]
 > Before deploying the application, ensure to add your Spotify API credentials ( <strong><em>client ID and client secret</em></strong> ) in <code>line 18 & 19</code> of <strong>app.py</strong>. Failing to do so will result in authentication errors when accessing the Spotify API. Refer to the Spotify API documentation for instructions on obtaining and managing your credentials.
